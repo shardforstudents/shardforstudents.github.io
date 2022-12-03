@@ -39,30 +39,58 @@ a:hover {
 }
 
 #header {
-    width: 800px;
-    height: 200px;
-    margin-top: calc(25% - 100px);
-    margin-left: calc(50% - 400px);
-    margin-bottom: calc(25% - 100px);
-    padding: 0;
+	width: 800px;
+	margin-top: calc(25% - 150px);
+	margin-left: calc(50% - 400px);
+	margin-bottom: calc(25% - 100px);
+	padding: 0;
+
+	display: flex;
 }
 
-#header img {
-    /*transform: scale(0.5);*/
-    width: 210px;
-    height: 200px;
-    float: left;
-    border-radius: 50%;
+
+#left-col {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
 }
 
-#header h1 {
+#left-col img {
+	/*transform: scale(0.5);*/
+	width: 180px;
+	float: left;
+	/*border-radius: 50%;*/
+}
+
+#left-col ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+#left-col ul li {
+	margin: 10px;
+}
+
+#left-col ul li a {
+	padding: 4px;
+}
+
+#right-col * {
+	margin-left: 30px;
+}
+
+#right-col h1 {
     margin-bottom: 0;
-    margin-left: 230px;
+		margin-top: 0;
 }
 
-#header h2 {
+#right-col h2 {
     margin-top: 10px;
-    margin-left: 230px;
+}
+
+#right-col p {
+	width: 80%;
 }
 
 .padder {
@@ -95,6 +123,11 @@ a:hover {
 .work-experience table .content {
     text-align: left;
     padding-left: 30px;
+}
+
+.anchor {
+	position: absolute;
+	transform: translateY(-8vh);
 }
 
 /** COLOR SCHEMES **/
