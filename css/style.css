@@ -48,6 +48,18 @@ a:hover {
 	display: flex;
 }
 
+#center-col {
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    margin-top: calc(30% - 150px);
+    margin-left: calc(65% - 400px);
+    margin-bottom: calc(25% - 100px);
+    padding: 0;
+}
+
 
 #left-col {
 	width: 500px;
@@ -146,4 +158,20 @@ a:hover {
 #ES .colored {
     color: forestgreen;
 }
+
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+
 
